@@ -7,7 +7,7 @@
 
 .header {
   background-color: #282c34;
-  box-shadow: 0 0 0.125rem 0.0625rem white;
+  box-shadow: 0 0 0.125rem 0.125rem rgba(255, 255, 255, 0.5);
 }
 
 .header-nav {
@@ -35,12 +35,45 @@
   object-fit: cover;
 }
 
+.header-nav__menu-label {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: text-shadow 0.25s;
+}
+
+.header-nav__menu-label:hover {
+  text-shadow:
+    0 0 0.25rem #61dafb,
+    0 0 0.5rem #61dafb;
+}
+
+.header-nav__menu-checkbox {
+  display: none;
+}
+
+.header-nav__menu-checkbox:checked+.header-nav__menu-list {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .header-nav__menu-list {
+  position: fixed;
+  top: 4rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #20232a;
+  opacity: 0;
+  pointer-events: none;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 2rem;
   margin: 0;
   padding: 0;
   list-style: none;
+  transition: opacity 0.25s;
 }
 
 .header-nav__menu-item {
