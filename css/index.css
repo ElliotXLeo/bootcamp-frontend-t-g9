@@ -108,3 +108,18 @@
 .header-nav__menu-link:hover::before {
   width: 100%;
 }
+
+@media (min-width: 854px) {
+  .header-nav__menu-label {
+    display: none;
+  }
+
+  .header-nav__menu-list {
+    position: static;
+    background-color: transparent;
+    opacity: 1;
+    pointer-events: auto;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
