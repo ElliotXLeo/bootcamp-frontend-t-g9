@@ -21,7 +21,7 @@
     <nav class="header-nav">
       <div class="header-nav__container">
         <a href="#hero" class="header-nav__link-logo-container">
-          <img src="https://i.postimg.cc/BbgQ48dp/logo-base2-wpo.png" alt="Base 2 by Web 4B" width="107" height="32"
+          <img src="./assets/img/logo-base-2.webp" alt="Base 2 by Web 4B" width="107" height="32"
             class="header-nav__link-logo" />
         </a>
         <label for="headerNavMenuIcon" class="header-nav__menu-label"><i class="bi bi-list"></i></label>
@@ -39,16 +39,30 @@
     </nav>
   </header>
 
-  <main>
-    <article id="hero">
-      <h1>Base 2 by Web 4B</h1>
-      <h2>Los mejores diseños y desarrollos de páginas web en el Perú</h2>
-      <p>
-        Somos el mejor lugar donde puedes aprender sobre desarrollo web frontend. Asimismo, con Base 2 by Web 4B puedes
-        hacer realidad
-        ese sueño que tienes en mente. ¡Cambia tu vida!
-      </p>
-      <a href="#learningWeeks">¡Aprender gratis!</a>
+  <main class="main">
+    <article class="hero" id="hero">
+      <div class="hero__container">
+        <section class="hero__info-container">
+          <h1 class="hero__info-title">Base 2 by Web 4B</h1>
+          <h2 class="hero__info-subtitle">Los mejores diseños y desarrollos de páginas web en el Perú</h2>
+          <p class="hero__info-paragraph">
+            Somos el mejor lugar donde puedes aprender sobre desarrollo web frontend. Asimismo, con Base 2 by Web 4B
+            puedes hacer realidad ese sueño que tienes en mente. ¡Cambia tu vida!
+          </p>
+          <a href="#learningWeeks" class="hero__info-link">¡Aprender gratis!</a>
+        </section>
+        <div class="hero__img-container">
+          <img src="./assets/img/elliot-garamendi.webp" alt="Elliot Garamendi" width="256" height="256"
+            class="hero__img-pro">
+          <figure class="hero__img-tech-container">
+            <img src="./assets/svg/logo-html-5.svg" alt="HTML" width="64" height="64" class="hero__img-tech" />
+            <img src="./assets/svg/logo-css-3.svg" alt="CSS" width="64" height="64" class="hero__img-tech" />
+            <img src="./assets/svg/logo-javascript.svg" alt="JavaScript" width="64" height="64"
+              class="hero__img-tech" />
+            <img src="./assets/svg/logo-react.svg" alt="React" width="64" height="64" class="hero__img-tech" />
+          </figure>
+        </div>
+      </div>
     </article>
 
     <section id="learningWeeks">
