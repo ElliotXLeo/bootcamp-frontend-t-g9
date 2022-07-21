@@ -7,6 +7,7 @@
   --padding-container: 0 1rem;
   --max-width-container: 1024px;
   --primary-all-transition: all 0.25s ease-in-out;
+  --primary-font-family: 'Roboto Mono', monospace;
   --letter-color-1: #00bef8;
   --letter-color-2: #ff0697;
   --letter-color-3: #ff4d00;
@@ -17,4 +18,5 @@
 
 .body {
   background-color: var(--primary-theme-color);
+  font-family: var(--primary-font-family);
 }
