@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Base 2 by Web 4B</title>
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="./css/index.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,18 +21,28 @@
     <nav class="header-nav">
       <div class="header-nav__container">
         <a href="#hero" class="header-nav__link-logo-container">
-          <img src="./assets/img/logo-base-2.webp" alt="Base 2 by Web 4B" width="107" height="32"
-            class="header-nav__link-logo" />
+          <img src="./assets/img/logo-base-2.webp" alt="Logo Base 2" class="header-nav__link-logo" width="108"
+            height="32" />
         </a>
-        <label for="headerNavMenuIcon" class="header-nav__menu-label"><i class="bi bi-list"></i></label>
-        <input type="checkbox" id="headerNavMenuIcon" class="header-nav__menu-checkbox" />
-        <ul class="header-nav__menu-list">
-          <li class="header-nav__menu-item">
-            <a href="#learningWeeks" class="header-nav__menu-link">Semanas</a>
+        <div class="header-nav__menu-icon-container" id="headerNavMenuIconContainer">
+          <i class="bi bi-list"></i>
+        </div>
+        <ul class="header-nav__menu-link-list">
+          <li class="header-nav__menu-link-item">
+            <a href="#footer" class="header-nav__menu-link">Test</a>
           </li>
-          <li class="header-nav__menu-item">
+          <li class="header-nav__menu-link-item">
+            <a href="#footer" class="header-nav__menu-link">Test</a>
+          </li>
+          <li class="header-nav__menu-link-item">
+            <a href="#footer" class="header-nav__menu-link">Test</a>
+          </li>
+          <li class="header-nav__menu-link-item">
             <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank" rel="noopener noreferrer"
               class="header-nav__menu-link header-nav__menu-link--active">Elliot</a>
+          </li>
+          <li class="header-nav__menu-link-item header-nav__menu-item--close-icon" id="headerNavMenuCloseIconContainer">
+            <i class="bi bi-x-circle"></i>
           </li>
         </ul>
       </div>
@@ -43,13 +53,14 @@
     <article class="hero" id="hero">
       <div class="hero__container">
         <section class="hero__info-container">
-          <h1 class="hero__info-title">Base 2 by Web 4B</h1>
+          <h1 class="hero__info-title">Base 2 by Web 4B </h1>
           <h2 class="hero__info-subtitle">Los mejores diseños y desarrollos de páginas web en el Perú</h2>
           <p class="hero__info-paragraph">
             Somos el mejor lugar donde puedes aprender sobre desarrollo web frontend. Asimismo, con Base 2 by Web 4B
             puedes hacer realidad ese sueño que tienes en mente. ¡Cambia tu vida!
           </p>
-          <a href="#learningWeeks" class="hero__info-link">¡Aprender gratis!</a>
+          <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank" rel="noopener noreferrer"
+            class="hero__info-link">¡Aprender gratis!</a>
         </section>
         <div class="hero__img-container">
           <img src="./assets/img/elliot-garamendi.webp" alt="Elliot Garamendi" width="256" height="256"
@@ -64,23 +75,54 @@
         </div>
       </div>
     </article>
-
-    <section id="learningWeeks">
-      <h2>Semanas</h2>
-      <nav>
-        <ul>
-          <li>
-            <a href="./semana-1/">Semana 1</a>
-          </li>
-        </ul>
-      </nav>
-    </section>
   </main>
 
-  <footer>
-    <h5>Copyright &copy; 2022 <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank"
-        rel="noopener noreferrer">Elliot Garamendi</a>. Todos los derechos reservados.</h5>
+  <footer class="footer" id="footer">
+    <nav class="footer-nav">
+      <div class="footer-nav-container">
+        <ul class="footer-nav__link-list">
+          <li class="footer-nav__link-item">
+            <a href="https://www.linkedin.com/in/elliotgaramendi/" class="footer-nav__link">
+              <img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="LinkedIn" class="footer-nav__link-image" />
+            </a>
+          </li>
+          <li class="footer-nav__link-item">
+            <a href="https://www.instagram.com/elliotgaramendi/" class="footer-nav__link">
+              <img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="Instagram" class="footer-nav__link-image" />
+            </a>
+          </li>
+          <li class="footer-nav__link-item">
+            <a href="https://www.facebook.com/elliotgaramendi" class="footer-nav__link">
+              <img src="https://i.postimg.cc/7YHyZXZX/facebook.png" alt="Facebook" class="footer-nav__link-image" />
+            </a>
+          </li>
+          <li class="footer-nav__link-item">
+            <a href="https://github.com/ElliotXLeo" class="footer-nav__link">
+              <img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="GitHub" class="footer-nav__link-image" />
+            </a>
+          </li>
+          <li class="footer-nav__link-item">
+            <a href="https://www.youtube.com/channel/UCE9whBrtYnLWrpzwk6z_JUA" class="footer-nav__link">
+              <img src="https://i.postimg.cc/dtPYcvbM/youtube.png" alt="YouTube" class="footer-nav__link-image" />
+            </a>
+          </li>
+          <li class="footer-nav__link-item">
+            <a href="https://elliotxleo.github.io/portafolio-web-elgs/" class="footer-nav__link">
+              <img src="https://i.postimg.cc/65TVxg9t/world-globe.png" alt="Página Personal"
+                class="footer-nav__link-image" />
+            </a>
+          </li>
+        </ul>
+        <h2 class="footer-nav__credits">
+          🦄Copyright &copy; 2022 <a href="https://www.linkedin.com/in/elliotgaramendi/"
+            class="footer-nav__credits-author" target="_blank" rel="noreferrer">Elliot Garamendi.</a> Todos los derechos
+          reservados.🦄
+        </h2>
+      </div>
+    </nav>
   </footer>
+
+  <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>
