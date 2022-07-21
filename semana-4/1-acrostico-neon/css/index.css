@@ -1,3 +1,20 @@
+:root {
+  --primary-theme-color: deeppink;
+  --secondary-theme-color: #282c34;
+  --primary-text-color: #fff;
+  --primary-highlight-color: #61dafb;
+  --padding-section: 2rem 0;
+  --padding-container: 0 1rem;
+  --max-width-container: 1024px;
+  --primary-all-transition: all 0.25s ease-in-out;
+  --letter-color-1: #00bef8;
+  --letter-color-2: #ff0697;
+  --letter-color-3: #ff4d00;
+  --letter-color-4: #ffe600;
+  --letter-color-5: #bb00ff;
+  --letter-color-6: #f5926b;
+}
+
 .body {
-  background-color: deeppink;
+  background-color: var(--primary-theme-color);
 }
