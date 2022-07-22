@@ -1,4 +1,5 @@
 @import './variables.css';
+@import './header.css';
 
 .body {
   background-color: var(--primary-theme-color);
