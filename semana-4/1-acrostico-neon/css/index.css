@@ -1,10 +1,5 @@
 @import url('./variables.css');
-
-@keyframes zoom {
-  100% {
-    transform: scale(1.125);
-  }
-}
+@import './animations.css';
 
 .body {
   background-image: radial-gradient(var(--primary-theme-color), var(--secondary-theme-color));
