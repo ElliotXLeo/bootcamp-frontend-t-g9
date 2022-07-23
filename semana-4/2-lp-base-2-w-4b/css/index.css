@@ -1,6 +1,5 @@
 @import './variables.css';
 @import './header.css';
-@import './hero.css';
 
 .body {
   background-color: var(--primary-theme-color);
