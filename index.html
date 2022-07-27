@@ -5,15 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Base 2 by Web 4B</title>
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="./css/index.css" />
-
+  <title>Base 2 By Web 4B</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 </head>
 
 <body class="body">
@@ -24,25 +22,27 @@
           <img src="./assets/img/logo-base-2.webp" alt="Logo Base 2" class="header-nav__link-logo" width="108"
             height="32" />
         </a>
-        <div class="header-nav__menu-icon-container" id="headerNavMenuIconContainer">
+        <button class="header-nav__menu-icon-container" id="menuIconContainer">
           <i class="bi bi-list"></i>
-        </div>
-        <ul class="header-nav__menu-link-list">
-          <li class="header-nav__menu-link-item">
-            <a href="#footer" class="header-nav__menu-link">Test</a>
+        </button>
+        <ul class="header-nav__menu-list">
+          <li class="header-nav__menu-item">
+            <a href="#" class="header-nav__menu-link">Proyectos</a>
           </li>
-          <li class="header-nav__menu-link-item">
-            <a href="#footer" class="header-nav__menu-link">Test</a>
+          <li class="header-nav__menu-item">
+            <a href="#" class="header-nav__menu-link">Galería</a>
           </li>
-          <li class="header-nav__menu-link-item">
-            <a href="#footer" class="header-nav__menu-link">Test</a>
+          <li class="header-nav__menu-item">
+            <a href="#" class="header-nav__menu-link">Contacto</a>
           </li>
-          <li class="header-nav__menu-link-item">
+          <li class="header-nav__menu-item">
             <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank" rel="noopener noreferrer"
               class="header-nav__menu-link header-nav__menu-link--active">Elliot</a>
           </li>
-          <li class="header-nav__menu-link-item header-nav__menu-item--close-icon" id="headerNavMenuCloseIconContainer">
-            <i class="bi bi-x-circle"></i>
+          <li class="header-nav__menu-item header-nav__menu-item--menu-close">
+            <button class="header-nav__menu-close-icon-container" id="menuCloseIconContainer">
+              <i class="bi bi-x-circle"></i>
+            </button>
           </li>
         </ul>
       </div>
@@ -52,7 +52,7 @@
   <main class="main">
     <article class="hero" id="hero">
       <div class="hero__container">
-        <section class="hero__info-container">
+        <div class="hero__info-container">
           <h1 class="hero__info-title">Base 2 by Web 4B </h1>
           <h2 class="hero__info-subtitle">Los mejores diseños y desarrollos de páginas web en el Perú</h2>
           <p class="hero__info-paragraph">
@@ -61,7 +61,7 @@
           </p>
           <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank" rel="noopener noreferrer"
             class="hero__info-link">¡Aprender gratis!</a>
-        </section>
+        </div>
         <div class="hero__img-container">
           <img src="./assets/img/elliot-garamendi.webp" alt="Elliot Garamendi" width="256" height="256"
             class="hero__img-pro">
@@ -75,52 +75,27 @@
         </div>
       </div>
     </article>
-  </main>
 
-  <footer class="footer" id="footer">
-    <nav class="footer-nav">
-      <div class="footer-nav-container">
-        <ul class="footer-nav__link-list">
-          <li class="footer-nav__link-item">
-            <a href="https://www.linkedin.com/in/elliotgaramendi/" class="footer-nav__link">
-              <img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="LinkedIn" class="footer-nav__link-image" />
-            </a>
-          </li>
-          <li class="footer-nav__link-item">
-            <a href="https://www.instagram.com/elliotgaramendi/" class="footer-nav__link">
-              <img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="Instagram" class="footer-nav__link-image" />
-            </a>
-          </li>
-          <li class="footer-nav__link-item">
-            <a href="https://www.facebook.com/elliotgaramendi" class="footer-nav__link">
-              <img src="https://i.postimg.cc/7YHyZXZX/facebook.png" alt="Facebook" class="footer-nav__link-image" />
-            </a>
-          </li>
-          <li class="footer-nav__link-item">
-            <a href="https://github.com/ElliotXLeo" class="footer-nav__link">
-              <img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="GitHub" class="footer-nav__link-image" />
-            </a>
-          </li>
-          <li class="footer-nav__link-item">
-            <a href="https://www.youtube.com/channel/UCE9whBrtYnLWrpzwk6z_JUA" class="footer-nav__link">
-              <img src="https://i.postimg.cc/dtPYcvbM/youtube.png" alt="YouTube" class="footer-nav__link-image" />
-            </a>
-          </li>
-          <li class="footer-nav__link-item">
-            <a href="https://elliotxleo.github.io/portafolio-web-elgs/" class="footer-nav__link">
-              <img src="https://i.postimg.cc/65TVxg9t/world-globe.png" alt="Página Personal"
-                class="footer-nav__link-image" />
-            </a>
-          </li>
-        </ul>
-        <h2 class="footer-nav__credits">
-          🦄Copyright &copy; 2022 <a href="https://www.linkedin.com/in/elliotgaramendi/"
-            class="footer-nav__credits-author" target="_blank" rel="noreferrer">Elliot Garamendi.</a> Todos los derechos
-          reservados.🦄
-        </h2>
+    <section class="projects">
+      <div class="projects__container">
+        <h2 class="projects__title">Proyectos</h2>
+        <div class="projects__projects-container">
+          <img src="https://i.postimg.cc/LXPKVpKW/cineverse.png" alt="Cineverse" width="256" height="144"
+            class="projects__project" />
+          <img src="https://i.postimg.cc/3rcDR8Wh/next-project-mern.png" alt="Next Project MERN Frontend" width="256"
+            height="144" class="projects__project" />
+          <img src="https://i.postimg.cc/kg2k7v3P/lp-b2-w-4b-elgs.png" alt="Bootcamp Frontend T G14" width="256"
+            height="144" class="projects__project" />
+          <img src="https://i.postimg.cc/BvYqBcY3/pokemons-crud-redux-react.png" alt="Pokémons CRUD Redux React"
+            width="256" height="144" class="projects__project" />
+          <img src="https://i.postimg.cc/prBc3CPG/pancito-feliz-r.png" alt="Pancito Feliz R" width="256" height="144"
+            class="projects__project" />
+          <img src="https://i.postimg.cc/Cx03d381/puedes-lograrlo-ea-r.png" alt="¿Puedes lograrlo?" width="256"
+            height="144" class="projects__project" />
+        </div>
       </div>
-    </nav>
-  </footer>
+    </section>
+  </main>
 
   <script src="./js/index.js" type="module"></script>
 </body>

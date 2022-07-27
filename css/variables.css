@@ -1,0 +1,25 @@
+:root {
+  scroll-behavior: smooth;
+  --primary-theme-color: #20232a;
+  --secondary-theme-color: #282c34;
+  --primary-text-color: #fff;
+  --primary-shadow-color: #fff8;
+  --reverse-primary-shadow-color: #0008;
+  --primary-button-color: #61dafb;
+  --primary-button-color-active: #fff;
+  --primary-button-text-color: #000;
+  --primary-highlight-color: #61dafb;
+  --secondary-highlight-color: #ffd700;
+  --padding-section: 2rem 0;
+  --padding-container: 0 1rem;
+  --max-width-container: 1024px;
+  --primary-border-radius: 0.5rem;
+  --primary-all-transitions: all 0.25s ease-in-out;
+  --primary-font-family: 'Inconsolata', monospace;
+}
+
+@media (min-width: 854px) {
+  :root {
+    --padding-container: 0 0.75rem;
+  }
+}
